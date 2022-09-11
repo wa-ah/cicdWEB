@@ -1,0 +1,10 @@
+apiVersion : v1
+kind: Pod
+metadata:
+  name: ApachePod
+spec:
+  containers:
+    - name : container-Apache
+      image: waah13/Apache:latest
+      ports:
+        - containerPort: 80
